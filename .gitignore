@@ -1,0 +1,32 @@
+# 核心依赖与构建
+node_modules/
+coverage/
+dist/
+build/
+out/
+
+# 环境与敏感信息
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 项目特定
+prisma/
+uploads/
+dev.db
+
+# 测试与临时
+tests/
+!tests/.gitkeep  # 保留空目录用于结构展示（如需）
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
